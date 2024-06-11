@@ -14,8 +14,8 @@ export function Post() {
             </div>
         </header>
         <div className={styles.content}>
-            <p>Sobre Mim</p>
-            <p>E</p>
+            <p className={styles.title}>Sobre Mim</p>
+            <p>Sou um profissional em desenvolvimento, buscando conhecimento em diversas áreas para descobrir minha verdadeira vocação enquanto desenvolvo projetos pessoais em busca de realizações e experiência.</p>
 
             <p><a target='_blank' href="https://github.com/SkyNicky?tab=repositories">Link Repositórios</a></p>
             <p><a target='_blank' href="https://github.com/SkyNicky/Creating">Último Projeto</a></p>

@@ -56,3 +56,8 @@
     line-height: 1.6;
     color: var(--gray-100);
 }
+.title{
+  color: var(--gray-100);
+  line-height: 2;
+  font-size: 1.2rem;
+}

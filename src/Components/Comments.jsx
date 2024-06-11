@@ -1,5 +1,5 @@
 import styles from './comments.module.css';
-
+import logo from '../assets/img/images.png'
 export function Comments() {
   return (
     <div className={styles.comments}>
@@ -11,8 +11,15 @@ export function Comments() {
               <strong>1° Experiência</strong>
             </div>
           </header>
-          <p>Aprendizagem de Instalações Elétricas Prediais</p>
-        </div>
+          <div className={styles.commentsContainer}>
+            <div>
+              <p>Aprendizagem de Instalações Elétricas Industriais</p>
+            </div>
+            <div className={styles.logo}>
+              <img src={logo}/>
+            </div>
+          </div>
+          </div>
       </div>
 
       <div className={styles.commentsRow}>
@@ -23,7 +30,14 @@ export function Comments() {
               <strong>2° Experiência </strong>
             </div>
           </header>
-          <p>Aprendizagem de Instalações Elétricas Industriais</p>
+          <div className={styles.commentsContainer}>
+            <div>
+              <p>Aprendizagem de Instalações Elétricas Industriais</p>
+            </div>
+            <div className={styles.logo}>
+              <img src={logo}/>
+            </div>
+          </div>
         </div>
       </div>
 
