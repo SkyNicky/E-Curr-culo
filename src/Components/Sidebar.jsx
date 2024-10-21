@@ -18,6 +18,7 @@ export function Sidebar() {
     <strong>Contato</strong>
             <span>Endereço: Santa Clara, Rua Quatorze n°65</span>
             <span>Telefone: (32) 98510-4736</span>
+            <span>Linkedin:<a href='https://www.linkedin.com/in/nycholas-ferreira-de-freitas-rocha-3b302325b/' target='_blank'>Nycholas F.F Rocha</a></span>
             <span>Email:<a href='nycholasffrocha@gmail.com' target='_blank'>nycholasffrocha@gmail.com</a></span>
     </aside>
     </div>
